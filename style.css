@@ -115,3 +115,38 @@ nav {
     font-size: 12px;
     font-weight: 400;
 }
+#search-btn {
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.posts {
+    max-width: 975px;
+    display: flex;
+    flex-direction: column;
+}
+.post {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    max-width: 600px;
+    margin-top: 30px;
+}
+.post img {
+    width: 100%;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: space-between;
+    border: 1px solid #dbdbdb;
+}
+.caption {
+    padding: 5px 10px;
+    border: 1px solid #dbdbdb;
+}
